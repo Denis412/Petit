@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+  <title>Petit</title>
+
+  <link rel="stylesheet" href="/styles/main-page.css">
+  <link rel="stylesheet" href="/styles/common-styles.css">
+</head>
+<body class="body">
+  <header class="header">
+    <section class="header-logo">
+      <div class="egg"></div>
+      <p class="header-logo-par">Petit</p>
+    </section>
+
+    <section class="header-search">
+      <form action="">
+        <label>
+          <input class="header-search-input" type="text" placeholder="Поиск">
+        </label>
+      </form>
+    </section>
+
+    <button class="btn">Выйти</button>
+  </header>
+
+  <main class="main">
+    <section class="main-content">
+      <section class="left-content">
+        <section class="avatars">
+          <section class="main-avatar">
+            <img class="main-avatar-img" src="/resourses/images/avatar.jpg" alt="">
+          </section>
+          <section class="second-avatar-container">
+            <div class="second-avatar">
+              <img class="second-avatar-img" src="/resourses/images/avatar2.jpg" alt="">
+            </div>
+          </section>
+        </section>
+        <ul class="pages">
+          <a class="pages-item btn-profile" href="#">
+            <img class="pages-item-img" src="/resourses/images/user.svg" alt="">
+            <p class="pages-item-text">Профиль</p>
+          </a>
+          <a class="pages-item btn-profile" href="#">
+            <img class="pages-item-img" src="/resourses/images/layout.svg" alt="">
+            <p class="pages-item-text">Лента</p>
+          </a>
+          <a class="pages-item btn-profile" href="#">
+            <img class="pages-item-img" src="/resourses/images/mail.svg" alt="">
+            <p class="pages-item-text">Мессенджер</p>
+          </a>
+          <a class="pages-item btn-profile" href="#">
+            <img class="pages-item-img" src="/resourses/images/users.svg" alt="">
+            <p class="pages-item-text">Подписки</p>
+          </a>
+        </ul>
+      </section>
+      <section class="right-content">
+        <section class="main-user_information">
+          <div class="main-user_information-inf">
+            <section class="user-information">
+              <h2 class="main-text">Павел Кудряшов</h2>
+              <p class="paragraph-text">Москва</p>
+            </section>
+            <section class="pets-information">
+              <h2 class="main-text">Мои питомцы</h2>
+              <ul class="pets">
+                <li class="pet">Кошка Двортерьер</li>
+                <li class="pet">Собака Лабрадор</li>
+              </ul>
+            </section>
+          </div>
+          <div class="main-user_information-btns">
+            <div class="status">
+              <p class="status-text">online</p>
+            </div>
+            <button class="btn-profile btn-profile-text">Редактировать профиль</button>
+            <button class="btn-profile btn-profile-text">Добавить питомца</button>
+          </div>
+        </section>
+
+        <section class="sub-photos-container">
+          <section class="subscribes-container">
+            <div class="container-header-name">
+              <h2 class="container-name">Подписки</h2>
+            </div>
+
+            <ul class="subscribes">
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+              <li class="subscribe"><img src="" alt="" class="avatar_sub"></li>
+            </ul>
+          </section>
+
+          <section class="photos-container">
+            <div class="photos-container-end">
+              <div class="container-header-name">
+                <h2 class="container-name">Мои питомцы</h2>
+              </div>
+                <!--Слайдер питомцев НАЧАЛО-->
+
+                <!--Слайдер питомцев КОНЕЦ-->
+            </div>
+          </section>
+        </section>
+
+        <section class="gallery-container">
+          <div class="container-header-name">
+            <h2 class="container-name">Галерея</h2>
+          </div>
+        </section>
+
+        <section class="posts">
+          <div class="post">
+            <div class="post-header">
+              <span><img src="/resourses/images/avatar.jpg" alt="" class="post-header-img"></span>
+              <span class="post-text">Павел Кудряшов</span>
+            </div>
+            <div class="post-main-content">
+              <div class="post-main-content-container">
+                <img src="/resourses/images/cat1.jpg" alt="" class="post-main-content-img">
+                <h2 class="post-main-content-header">Бывают ли коты трехцветными?</h2>
+                <p class="post-main-content-text">Для того чтобы ответить на эти вопросы,
+                  стоит обьяснить от чегозависитокрас кошачьей шерсти. Окрас обусловлен
+                  генетикой и связан с хромосомой Х, а у мужских только одна,
+                  то коты не могут быть трех цветов, а кошки - могут. Сейчас обьясним, почему.</p>
+              </div>
+            </div>
+            <div class="post-footer">
+              <button class="post-footer-btn">
+                <img src="/resourses/images/heart-fill.svg" alt="" class="post-footer-btn-img">
+              </button>
+              <button class="post-footer-btn">
+                <img src="/resourses/images/chat-1-fill.svg" alt="" class="post-footer-btn-img">
+              </button>
+              <button class="post-footer-btn">
+                <img src="/resourses/images/rotate-ccw.svg" alt="" class="post-footer-btn-img">
+              </button>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+  </main>
+
+  <footer class="footer"></footer>
+</body>
+</html>
